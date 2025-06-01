@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="icon" href="amar.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Theme Toggle Switch -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch-input">
+        <label for="theme-switch" class="theme-switch-label">
+            <span class="theme-switch-button"></span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h1 class="main-title">Hi, I'm Amar.</h1>
+                <h2 class="subtitle">Full Stack Developer</h2>
+                <p class="about-text">
+                    I'm a passionate developer with expertise in modern web technologies.
+                    I love creating efficient, scalable solutions and turning ideas into reality through code.
+                    Welcome to my portfolio where you can explore my journey, skills, and projects.
+                </p>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>X</span>
+                    </a>
+                    <a href="https://codeforces.com/profile/yourusername" target="_blank" class="social-link">
+                        <i class="fas fa-code"></i>
+                        <span>Codeforces</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Full Stack Developer</h3>
+                            <h4>Tech Company XYZ</h4>
+                            <p>Led development of scalable web applications using React, Node.js, and MongoDB. Improved
+                                application performance by 40% and mentored junior developers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <div class="timeline-content">
+                            <h3>Frontend Developer</h3>
+                            <h4>Digital Solutions Inc</h4>
+                            <p>Developed responsive user interfaces and implemented modern design systems. Collaborated
+                                with UX teams to deliver exceptional user experiences.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Junior Developer</h3>
+                            <h4>StartUp Ventures</h4>
+                            <p>Built and maintained web applications, gained experience in agile development
+                                methodologies and modern JavaScript frameworks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Computer Science and Aritificial Intelligence</h3>
+                        <h4>IIIT-Delhi</h4>
+                        <p class="education-year">2023 - Present</p>
+                        <p>Graduated with honors, specialized in software engineering and algorithms.</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Machine Learning Specialization</h3>
+                        <h4>Standford & DeepLearning.AI</h4>
+                        <p class="education-year">2024</p>
+                        <p>Intensive program covering modern web technologies and best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Technologies I've worked with</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                                        <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 50 50" class="skill-svg">
+                                <circle cx="25" cy="25" r="20" fill="#283593"></circle>
+                                <text x="25" y="32" font-size="24" fill="white" text-anchor="middle"
+                                    font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                    <!-- Add more skill cards following the same pattern -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A full-stack e-commerce solution with React frontend, Node.js backend, and integrated
+                                payment system.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>A collaborative task management application with real-time updates and team collaboration
+                                features.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Socket.io</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p>Interactive dashboard for data analysis with dynamic charts and real-time data
+                                processing.</p>
+                            <div class="project-tech">
+                                <span>D3.js</span>
+                                <span>Python</span>
+                                <span>Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p>Interactive dashboard for data analysis with dynamic charts and real-time data
+                                processing.</p>
+                            <div class="project-tech">
+                                <span>D3.js</span>
+                                <span>Python</span>
+                                <span>Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if
+                            you'd like to collaborate or just say hello.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>amar23079@iiitd.ac.in</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 6287727970</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>New Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; Coded by Amar Anand with ❤️ and ☕.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
